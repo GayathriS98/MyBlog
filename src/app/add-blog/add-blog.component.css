@@ -1,0 +1,11 @@
+.main_div{
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/4425285/1820/1213/m1/fpnw/wm1/vik7fgnk6iwb50vfgssyyfa7poutctycxhyvnqgbzrjtqwhesbczznkbqctjidpx-.jpg?1525851628&s=e87b83a22fea6d9766b62ee6af9cc721);
+    /* Full height */
+  height: 90vh;
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

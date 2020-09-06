@@ -1,0 +1,20 @@
+<div class="main_div pb-2  overflow-auto">
+    <div class="container mt-5" *ngIf="blogs.length==0">
+        <div class="card col-lg-8 mx-auto">
+            <div class="card-body">
+                <h4 class="card-text text-center">There are currently no blogs.</h4>
+            </div>
+        </div>
+    </div>
+    <div class="card col-lg-8 px-0 mx-auto mb-3" *ngFor="let blog of blogs; let i = index">
+            <div class="card-header">
+                <h4 class="text-capitalize">{{blog.title}} 
+                    <a (click)="deleteBlog(i)" class="btn btn-primary float-right mx-2">Delete</a>
+                </h4>
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{blog.content}}</p>
+            </div>
+    </div>
+</div>
+
